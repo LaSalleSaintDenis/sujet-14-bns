@@ -1,2 +1,6 @@
 def recherche(elt, tab):
-    return tab_elt
+  ids = []
+  for i in range(len(tab)):
+    if elt == tab[i]:
+      ids.append(i)
+  return ids
